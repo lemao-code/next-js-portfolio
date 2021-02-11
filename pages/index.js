@@ -5,6 +5,13 @@ import { Container, Conteudo,Header, SobreMim, NavBar, Footer } from './style'
 export default function Home() {
   return (
     <body style={{margin: 0, height: "100%", backgroundColor: "black"}}>
+      <style>
+        {` 
+          body {
+            font-family: 'Roboto Mono', monospace;
+          }
+        `}
+      </style>
       <Header>
         <h1 style={{color: "white", }}>Welcome my portfolio</h1>
         <NavBar>
