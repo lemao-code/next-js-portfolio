@@ -83,5 +83,5 @@ export const ContainerProjetos = styled.div `
     @media(max-width: 1000px) {
         flex-direction: column;
     }
-    
+    padding:20px;
 `
